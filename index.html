@@ -15,13 +15,18 @@
     <h1>EX2 extra Loops</h1>
 
     <div class="form-group">
-        <p id="arr1"></p>
-        <button onclick="myFunction()">Click to see the Array</button>
-        <label for=""></label>
-        <input type="text" class="form-control" name="" id="num2" aria-describedby="helpId" placeholder="">
-        <small id="helpId" class="form-text text-muted">enter a number from the list above</small>
-        <button onclick="myFunction1()">Submit</button>
-        <p id="arr2"></p>
+        <div>
+            <p id="arr1"></p>
+            <button onclick="myFunction()">Click to see the Array</button>
+        </div>
+        <div>
+            <input type="number" class="form-control" name="" id="num2" >
+            <small class="form-text text-muted">enter a number from the list above</small>
+            <div class="buttons">
+                <button type="button" onclick="myFunction1()">Submit</button>
+            </div>
+            <p id="arr2"></p>
+        </div>
     </div>
 
 </body>
